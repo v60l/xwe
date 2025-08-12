@@ -3,104 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>واجهة - الموقع الرسمي</title>
-  <meta name="description" content="الموقع الرسمي لهارون المسوري على واجهة. الموقع الشخصي للتعريف والاتصال." />
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="واجهة - الموقع الرسمي لهارون المسوري" />
-  <meta property="og:description" content="الموقع الرسمي لهارون المسوري على واجهة. الموقع الشخصي للتعريف والاتصال." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://wajaaha.com" />
-  <meta property="og:image" content="https://wajaaha.com/image-profile.jpg" />
-  
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="واجهة - الموقع الرسمي لهارون المسوري" />
-  <meta name="twitter:description" content="الموقع الرسمي لهارون المسوري على واجهة. الموقع الشخصي للتعريف والاتصال." />
-  <meta name="twitter:image" content="https://wajaaha.com/image-profile.jpg" />
-
-  <!-- Structured Data JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "هارون المسوري",
-    "url": "https://wajaaha.com",
-    "image": "https://wajaaha.com/image-profile.jpg",
-    "sameAs": [
-      "https://twitter.com/yourtwitter",
-      "https://www.linkedin.com/in/yourlinkedin",
-      "https://www.facebook.com/yourfacebook",
-      "https://www.instagram.com/yourinstagram"
-    ],
-    "jobTitle": "شريك فكري ومستشار رقمي",
-    "description": "الموقع الرسمي لهارون المسوري. متخصص في استشارات تقنية وحلول رقمية."
-  }
-  </script>
-
+  <title>موقع راقي وكلاسيكي</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f5f7;
+      font-family: 'Georgia', serif;
+      background-color: #f9f5f0;
+      color: #333;
       margin: 0; padding: 0;
-      color: #222;
-      direction: rtl;
-      text-align: center;
     }
     header {
-      background: #004aad;
+      background-color: #fff8f0;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #d6cfc7;
+    }
+    header h1 {
+      font-weight: normal;
+      font-size: 24px;
+      color: #b28842;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+    nav a {
+      color: #7a6241;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #b28842;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin: 0 0 15px 0;
+    }
+    .hero button {
+      background-color: #b28842;
+      border: none;
+      padding: 12px 30px;
       color: white;
-      padding: 20px 10px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .hero button:hover {
+      background-color: #7a6241;
     }
     main {
-      padding: 30px 15px;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    img.profile {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #004aad;
-      margin-bottom: 20px;
-    }
-    a.social-link {
-      display: inline-block;
-      margin: 0 10px;
-      text-decoration: none;
-      color: #004aad;
-      font-weight: bold;
-      font-size: 18px;
-    }
-    a.social-link:hover {
-      color: #002974;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
     }
     footer {
-      margin-top: 40px;
+      background-color: #fff8f0;
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #d6cfc7;
+      color: #7a6241;
       font-size: 14px;
-      color: #666;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>مرحبا بكم في موقع <span style="color:#ffcc00;">واجهة</span></h1>
-  </header>
-  <main>
-    <img src="https://wajaaha.com/image-profile.jpg" alt="صورة هارون المسوري" class="profile" />
-    <h2>هارون المسوري</h2>
-    <p>شريك فكري ومستشار رقمي. الموقع الرسمي لهارون المسوري. متخصص في استشارات تقنية وحلول رقمية.</p>
 
-    <div>
-      <a href="https://twitter.com/yourtwitter" target="_blank" class="social-link">تويتر</a>
-      <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" class="social-link">لينكدإن</a>
-      <a href="https://www.facebook.com/yourfacebook" target="_blank" class="social-link">فيسبوك</a>
-      <a href="https://www.instagram.com/yourinstagram" target="c94le" class="social-link">إنستجرام</a>
-    </div>
+  <header>
+    <h1>الوجاهه الكلاسيكية</h1>
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#">من نحن</a>
+      <a href="#">خدماتنا</a>
+      <a href="#">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>مرحبًا بكم في عالم الفخامة</h2>
+    <button>تعرف علينا</button>
+  </section>
+
+  <main>
+    <h3>عن الموقع</h3>
+    <p>
+      نقدم لكم تجربة تصميم فريدة تجمع بين الأصالة والفخامة في كل تفاصيلها.
+      نسعى لأن نقدم أفضل الخدمات التي تلبي طموحات عملائنا بأرقى المعايير.
+    </p>
   </main>
+
   <footer>
-    <p>© 2025 واجهة - جميع الحقوق محفوظة</p>
+    جميع الحقوق محفوظة © 2025 | تواصل معنا: info@classicsite.com
   </footer>
+
 </body>
 </html>
