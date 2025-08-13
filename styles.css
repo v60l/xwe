@@ -22,7 +22,7 @@ body{background-color:var(--bg);color:var(--accent);line-height:1.6;min-height:1
 .site-header{
   position: sticky;
   top: 0;
-  background-image: url('your-image.jpg'); /* غير هذا بمسار صورتك */
+  background-image: url('your-image.png'); /* غير هذا بمسار صورتك */
   background-size: cover; /* تغطي كامل الرأس */
   background-position: center top; /* الصورة من الأعلى */
   background-repeat: no-repeat;
